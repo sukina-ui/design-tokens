@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "description": "Design tokens for Sukina UI",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsx transforms/style-dictionary/transform.ts",
+    "lint": "eslint ./transforms",
+    "format": "prettier --write ./transforms"
   },
   "repository": {
     "type": "git",
@@ -12,7 +15,7 @@
   },
   "keywords": [
     "design-system",
-  "design-tokens"
+    "design-tokens"
   ],
   "license": "MIT",
   "bugs": {
