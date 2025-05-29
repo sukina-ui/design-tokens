@@ -60,7 +60,7 @@ const sd = new StyleDictionary({
       ],
       files: [
         {
-          format: "javascript/module",
+          format: "javascript/esm",
           destination: "dist/tokens.js",
         },
         {
