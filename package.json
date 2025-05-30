@@ -2,12 +2,16 @@
   "name": "@sukina-ui/design-tokens",
   "version": "0.1.0",
   "description": "Design tokens for Sukina UI",
-  "main": "dist/tokens.js",
-  "types": "dist/tokens.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/tokens.d.ts",
+      "import": "./dist/tokens.js"
+    }
+  },
   "files": [
     "dist"
   ],
-  "type": "module",
   "scripts": {
     "build": "tsx transforms/style-dictionary/transform.ts",
     "lint": "eslint ./transforms",
