@@ -453,31 +453,31 @@
         "lg": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{sans}",
-            "fontWeight": "{bold}",
-            "lineHeight": "{150%}",
-            "letterSpacing": "{2%}",
-            "fontSize": "24"
+            "fontFamily": "{fontFamily.sans}",
+            "fontWeight": "{fontWeight.bold}",
+            "lineHeight": "{lineHeight.150%}",
+            "letterSpacing": "{letterSpacing.2%}",
+            "fontSize": "{fontSize.24}"
           }
         },
         "xl": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{sans}",
-            "fontWeight": "{bold}",
-            "lineHeight": "{140%}",
-            "letterSpacing": "{2%}",
-            "fontSize": "{28}"
+            "fontFamily": "{fontFamily.sans}",
+            "fontWeight": "{fontWeight.bold}",
+            "lineHeight": "{lineHeight.140%}",
+            "letterSpacing": "{letterSpacing.2%}",
+            "fontSize": "{fontSize.28}"
           }
         },
         "2xl": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{sans}",
-            "fontWeight": "{bold}",
-            "lineHeight": "{140%}",
-            "letterSpacing": "{2%}",
-            "fontSize": "{32}"
+            "fontFamily": "{fontFamily.sans}",
+            "fontWeight": "{fontWeight.bold}",
+            "lineHeight": "{lineHeight.140%}",
+            "letterSpacing": "{letterSpacing.2%}",
+            "fontSize": "{fontSize.32}"
           }
         }
       },
@@ -485,21 +485,21 @@
         "md": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{sans}",
-            "fontWeight": "{regular}",
-            "lineHeight": "{150%}",
-            "letterSpacing": "{2%}",
-            "fontSize": "{16}"
+            "fontFamily": "{fontFamily.sans}",
+            "fontWeight": "{fontWeight.regular}",
+            "lineHeight": "{lineHeight.150%}",
+            "letterSpacing": "{letterSpacing.2%}",
+            "fontSize": "{fontSize.16}"
           }
         },
         "lg": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{sans}",
-            "fontWeight": "{regular}",
-            "fontSize": "{18}",
-            "letterSpacing": "{0%}",
-            "lineHeight": "{150%}"
+            "fontFamily": "{fontFamily.sans}",
+            "fontWeight": "{fontWeight.regular}",
+            "fontSize": "{fontSize.18}",
+            "letterSpacing": "{letterSpacing.0%}",
+            "lineHeight": "{lineHeight.150%}"
           }
         }
       },
@@ -507,31 +507,31 @@
         "md": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{sans}",
-            "fontWeight": "{bold}",
-            "fontSize": "{72}",
-            "lineHeight": "{100%}",
-            "letterSpacing": "{0%}"
+            "fontFamily": "{fontFamily.sans}",
+            "fontWeight": "{fontWeight.bold}",
+            "fontSize": "{fontSize.72}",
+            "lineHeight": "{lineHeight.100%}",
+            "letterSpacing": "{letterSpacing.0%}"
           }
         },
         "lg": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{sans}",
-            "fontWeight": "{bold}",
-            "fontSize": "{96}",
-            "lineHeight": "{100%}",
-            "letterSpacing": "{0%}"
+            "fontFamily": "{fontFamily.sans}",
+            "fontWeight": "{fontWeight.bold}",
+            "fontSize": "{fontSize.96}",
+            "lineHeight": "{lineHeight.100%}",
+            "letterSpacing": "{letterSpacing.0%}"
           }
         },
         "xl": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{sans}",
-            "fontWeight": "{bold}",
-            "fontSize": "{128}",
-            "lineHeight": "{100%}",
-            "letterSpacing": "{0%}"
+            "fontFamily": "{fontFamily.sans}",
+            "fontWeight": "{fontWeight.bold}",
+            "fontSize": "{fontSize.128}",
+            "lineHeight": "{lineHeight.100%}",
+            "letterSpacing": "{letterSpacing.0%}"
           }
         }
       }
